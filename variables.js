@@ -10,7 +10,7 @@
  exports.ADMINS_CHAT_ID = "6815352523";
 
 // the following must be edited before deployment
-const remote_database_url=`mongodb+srv://atwebembeiresamuel2020:fWNei9fQ1PTMxk6q@botest.rrljclg.mongodb.net/?retryWrites=true&w=majority&appName=boTest`
+const remote_database_url="mongodb+srv://atwebembeiresamuel2020:fWNei9fQ1PTMxk6q@hahacluster.hjxyvqf.mongodb.net/?retryWrites=true&w=majority&appName=hahaCluster"
 // const remote_database_url = `mongodb+srv://${MONGODB_CREDENTIALS}@cluster0.p4mnf.mongodb.net/?retryWrites=true&w=majority`;
 const local_database_url = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000";
 const home_url = "https://referralbot1234-28cf79b717e5.herokuapp.com/";
