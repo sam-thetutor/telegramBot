@@ -5,12 +5,12 @@
 
  require("dotenv").config();
 
- const MONGODB_CREDENTIALS = process.env.MONGODB_CREDENTIALS;
- const BOT_TOKEN = process.env.BOT_TOKEN;
- exports.ADMINS_CHAT_ID = process.env.ADMINS_CHAT_ID;
+//  const MONGODB_CREDENTIALS = process.env.MONGODB_CREDENTIALS;
+ const BOT_TOKEN = "7028156508:AAEFt5YKSFrXZjm4Z85aYXIc8POG064wPxo";
+ exports.ADMINS_CHAT_ID = "6815352523";
 
 // the following must be edited before deployment
-const remote_database_url=`mongodb+srv://${MONGODB_CREDENTIALS}@botest.rrljclg.mongodb.net/?retryWrites=true&w=majority&appName=boTest`
+const remote_database_url=`mongodb+srv://atwebembeiresamuel2020:fWNei9fQ1PTMxk6q@botest.rrljclg.mongodb.net/?retryWrites=true&w=majority&appName=boTest`
 // const remote_database_url = `mongodb+srv://${MONGODB_CREDENTIALS}@cluster0.p4mnf.mongodb.net/?retryWrites=true&w=majority`;
 const local_database_url = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000";
 const home_url = "https://referralbot1234-2d71c2c49142.herokuapp.com/";
@@ -45,3 +45,9 @@ exports.database_url = remote_database_url;
 
  // edit this if you like to exclude some file types from being stored
  exports.attachment_file_types = ["photo", "document", "video", "audio"];
+
+
+
+
+
+// curl -X GET "https://api.telegram.org/bot7340974534:AAH0H6REcax1Lau6JcSeU8-chs_VyZ_Z9NI/setWebhook?url=https://referralbot1234-2d71c2c49142.herokuapp.com//webhook/7340974534:AAH0H6REcax1Lau6JcSeU8-chs_VyZ_Z9NI"
