@@ -13,7 +13,7 @@
 const remote_database_url=`mongodb+srv://${MONGODB_CREDENTIALS}@botest.rrljclg.mongodb.net/?retryWrites=true&w=majority&appName=boTest`
 // const remote_database_url = `mongodb+srv://${MONGODB_CREDENTIALS}@cluster0.p4mnf.mongodb.net/?retryWrites=true&w=majority`;
 const local_database_url = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000";
-const home_url = "https://referralbot1234-eb578c42b5ea.herokuapp.com/";
+const home_url = "https://referralbot1234-2d71c2c49142.herokuapp.com/";
 
 // change this variable to switch between local and remote databases
 exports.database_url = remote_database_url;
